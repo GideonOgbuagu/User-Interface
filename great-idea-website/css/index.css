@@ -150,16 +150,32 @@ h5 {
 }
 
 /* Your code starts here! */
-header div {
+
+* {
+  border: 1px solid grey;
+  padding: 0;
+  margin: 0;
+}
+header .nav-wrap {
   width: 100%;
   padding: 3%;
+  border: 1px solid grey;
 }
 header div nav a {
-  display: inline-block;
+  /* display: inline-block; */
   color: grey;
   text-decoration: none;
+  padding: 0 1%;
+  margin: 0 3%;
+  border: 1px solid grey;
 }
 
-header nav .logo {
+header .logo {
   display: inline-block;
+  border: 1px solid grey;
+}
+
+header nav {
+  margin-right: 30%;
+  border: 1px solid grey;
 }
