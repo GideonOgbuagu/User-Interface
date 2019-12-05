@@ -228,9 +228,7 @@ nav div {
   text-decoration: none;
   color: black;
 }
-.main-wrap {
-  width: 90%;
-}
+
 
 
 /* Working on features, about, service, product, vision */
@@ -253,4 +251,18 @@ nav div {
 
 .middle-img {
 	width: 100%;
+}
+.third {
+	width: 33%;
+	display: inline-block;
+	padding: 30px 0;
+}
+
+address {
+padding-top: 8%;	
+}
+
+footer {
+  text-align: center;
+  padding: 10% 0;
 }
